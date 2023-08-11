@@ -1,4 +1,5 @@
-import 'package:clean_arch/features/randomquotes/data/datasources/remote/random_quotes_remote_data_source.dart';
+
+import '../../../../second/data/data_sources/remote/random_quotes_remote_data_source.dart';
 
 class RandomQuotesRemoteDataSourceImpl extends RandomQuotesRemoteDataSource {
 
