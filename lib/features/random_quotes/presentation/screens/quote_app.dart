@@ -1,5 +1,5 @@
-import 'package:clean_arch/config/routes/app_routes.dart';
 import 'package:clean_arch/core/utils/assets_manager.dart';
+import 'package:clean_arch/core/utils/constants.dart';
 import 'package:clean_arch/core/utils/styles.dart';
 import 'package:flutter/material.dart';
 
@@ -22,10 +22,16 @@ class QuoteScreen extends StatelessWidget {
             padding: const EdgeInsets.symmetric(horizontal: 74.0),
             child: ElevatedButton(
               onPressed: () {
-                Navigator.pushNamed(
-                  context,
-                  Routes.favScreen
-                );
+                // Navigator.pushNamed(
+                //   context,
+                //   Routes.favScreen
+                // );
+
+                Constants.showToast(
+                    context: context,
+                    color: Colors.blue,
+                    msg: 'Error');
+
               },
               child: Text(
                 'Route',
