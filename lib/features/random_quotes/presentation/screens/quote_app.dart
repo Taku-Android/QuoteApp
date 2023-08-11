@@ -1,6 +1,6 @@
+import 'package:clean_arch/config/routes/app_routes.dart';
 import 'package:clean_arch/core/utils/assets_manager.dart';
 import 'package:clean_arch/core/utils/styles.dart';
-import 'package:clean_arch/features/favouritequote/presentation/screens/favourite_quote_screen.dart';
 import 'package:flutter/material.dart';
 
 class QuoteScreen extends StatelessWidget {
@@ -22,11 +22,9 @@ class QuoteScreen extends StatelessWidget {
             padding: const EdgeInsets.symmetric(horizontal: 74.0),
             child: ElevatedButton(
               onPressed: () {
-                Navigator.push(
+                Navigator.pushNamed(
                   context,
-                  MaterialPageRoute(
-                    builder: (context) => const FavouriteQuoteScreen(),
-                  ),
+                  Routes.favScreen
                 );
               },
               child: Text(
