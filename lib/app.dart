@@ -1,3 +1,4 @@
+import 'package:clean_arch/core/utils/app_color.dart';
 import 'package:clean_arch/features/randomquotes/presentation/screens/quote_app.dart';
 import 'package:flutter/material.dart';
 
@@ -12,7 +13,7 @@ class QuoteApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: AppStrings.appName,
       theme: ThemeData(
-        primarySwatch: Colors.blue
+        primaryColor: AppColor.primaryColor
       ),
       home: const QuoteScreen(),
     );
