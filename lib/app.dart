@@ -13,7 +13,8 @@ class QuoteApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: AppStrings.appName,
       theme: appTheme(),
-      routes: route,
+      // routes: route,
+      onGenerateRoute: AppRoutes.onGenerateRoute,
     );
   }
 }
