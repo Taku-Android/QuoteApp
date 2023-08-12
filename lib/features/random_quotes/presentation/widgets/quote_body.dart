@@ -12,6 +12,7 @@ class QuoteBody extends StatelessWidget {
       child: Column(
         children: [
           QuoteContainer() ,
+          SizedBox(height: 20,),
           QuoteRefresh(),
         ],
       ),
