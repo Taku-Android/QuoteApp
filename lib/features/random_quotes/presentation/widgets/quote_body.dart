@@ -1,4 +1,5 @@
 import 'package:clean_arch/features/random_quotes/presentation/widgets/quote_container.dart';
+import 'package:clean_arch/features/random_quotes/presentation/widgets/quote_refresh.dart';
 import 'package:flutter/material.dart';
 
 class QuoteBody extends StatelessWidget {
@@ -10,9 +11,11 @@ class QuoteBody extends StatelessWidget {
       padding: EdgeInsets.all(16.0),
       child: Column(
         children: [
-          QuoteContainer()
+          QuoteContainer() ,
+          QuoteRefresh(),
         ],
       ),
     );
   }
 }
+

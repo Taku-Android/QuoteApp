@@ -13,7 +13,7 @@ class QuoteContainer extends StatelessWidget {
       width: MediaQueryValues(context).width,
       height:  MediaQueryValues(context).height / 3,
       margin: const EdgeInsets.symmetric(vertical: 16.0),
-      padding:  const EdgeInsets.all(16.0) ,
+      padding:  const EdgeInsets.all(24.0) ,
       decoration: BoxDecoration(
         color: AppColor.primaryColor,
         borderRadius: BorderRadius.circular(30) ,
@@ -25,7 +25,7 @@ class QuoteContainer extends StatelessWidget {
             ,textAlign: TextAlign.center, style: Styles.textHeader22Black.copyWith(color: Colors.white),
           ),
           const Spacer(),
-          Text('Taku el gn'.toUpperCase()
+          Text('By Taku el gn'.toUpperCase()
             , style: Styles.text16Black.copyWith(color: Colors.white),
           ),
         ],
