@@ -10,7 +10,12 @@ class Quote extends Equatable{
   const Quote({required this.author,required this.content,required this.permalink,required this.id});
 
   @override
-  List<Object?> get props => throw UnimplementedError();
+  List<Object?> get props =>  [
+    author ,
+    id ,
+    content ,
+    permalink
+  ];
 
 
 
