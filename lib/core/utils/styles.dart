@@ -10,11 +10,18 @@ abstract class Styles{
       fontWeight: FontWeight.w900
   );
 
-  static TextStyle textHeader16Black = const TextStyle(
+  static TextStyle text16Black = const TextStyle(
       fontSize: 16,
       color: Colors.black,
       fontWeight: FontWeight.w900
   );
+
+  static TextStyle textHeader22Black = const TextStyle(
+      fontSize: 22,
+      color: Colors.black,
+      fontWeight: FontWeight.w500
+  );
+
 
 }
 

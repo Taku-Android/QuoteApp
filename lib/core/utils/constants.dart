@@ -11,13 +11,13 @@ class Constants {
     CupertinoAlertDialog(
       title: Text(
         msg ,
-        style: Styles.textHeader16Black,
+        style: Styles.text16Black,
       ),
       actions: [
         TextButton(onPressed: () => Navigator.pop(context),
             child: Text(
               'OK',
-              style: Styles.textHeader16Black,
+              style: Styles.text16Black,
             )
         )
       ],
